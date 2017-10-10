@@ -1,0 +1,65 @@
+body{
+  margin: 0 auto;
+  display: block;
+  background-color: grey;
+}
+header {
+  background-image: url("https://s3.envato.com/files/55875638/preview.jpg");
+  text-align: left;
+  color: white;
+  width: 100%;
+}
+footer {
+  background-color: pink;
+  text-align: center;
+  width: 100%
+}
+aside{
+  display: flex;
+  background-color: grey;
+  display: block;
+
+}
+article {
+  display: flex;
+  border: 1px solid black;
+  margin: 5px;
+}
+.container {
+  display: flex;
+}
+a:visited {
+  color: cyan;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+}
+img {
+  height: 25%;
+  width: 25%;
+  margin-right: 15px;
+}
+a:link {
+  border: 1px;
+  margin: 5px;
+  text-decoration: none;
+}
+h2 {
+  margin-right: 10px;
+}
+#honda {
+  width: 60%;
+  height: 50%;
+}
+#dettol {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+@media (max-width: 576px)  { img {height: 50%; width: 50; } aside {min-width: 100px; min-height: 100px;}
+ }
